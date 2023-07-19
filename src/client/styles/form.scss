@@ -1,3 +1,4 @@
+/* Form styles */
 form {
     border: 1px solid #bd5734;
     border-radius: 5px;
@@ -5,6 +6,7 @@ form {
     background-color: #bd5734;
 }
 
+/* Input field styles */
 input {
     padding: 5px 20px;
     width: 95%;
@@ -16,6 +18,7 @@ input {
     font-size: 1.3em;
 }
 
+/* Submit button styles */
 #submit {
     background-color: #feb236;
     margin-left: 0.6em;
@@ -25,6 +28,7 @@ input {
     font-size: 2em;
 }
 
+/* Hover styles for the submit button */
 #submit:hover {
     cursor: pointer;
     color: #feb236;

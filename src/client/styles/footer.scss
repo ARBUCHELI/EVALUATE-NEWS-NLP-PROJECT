@@ -1,8 +1,11 @@
+/* Footer styles with comments */
+
+/* Styles for the footer element */
 footer {
-    color: #bd5734;
-    text-align: center;
-    margin-top: 1em;
-    font-family:'Courier New', Courier, monospace;
-    font-size: 1.5em;
-    margin-bottom: 2em;
-  }
+  color: #bd5734; /* Set the text color to a reddish-brown shade */
+  text-align: center; /* Center-align the text content within the footer */
+  margin-top: 1em; /* Add a top margin of 1em to create space between the footer and the content above it */
+  font-family: 'Courier New', Courier, monospace; /* Use the 'Courier New' font family for the text */
+  font-size: 1.5em; /* Set the font size to 1.5em */
+  margin-bottom: 2em; /* Add a bottom margin of 2em to create space between the footer and the content below it */
+}

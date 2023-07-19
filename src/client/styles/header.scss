@@ -1,3 +1,4 @@
+/* Header styles */
 header {
   display: flex;
   justify-content: space-between;
@@ -7,6 +8,7 @@ header {
   border-radius: 5px;
 }
 
+/* Logo styles */
 .Logo {
   width: 100px; /* Adjust the width as needed */
   border: 4px solid #bd5734;
@@ -16,16 +18,19 @@ header {
   margin-bottom: 1em;
 }
 
+/* Menu styles */
 .menu {
   list-style: none;
   display: flex;
   margin-right: 1em;
 }
 
+/* Menu item styles */
 .menu li {
   margin-left: 10px; 
 }
 
+/* Menu link styles */
 .menu a {
   text-decoration: none;
   color: white;

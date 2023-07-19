@@ -1,0 +1,33 @@
+form {
+    border: 1px solid #bd5734;
+    border-radius: 5px;
+    padding: 40px;
+    background-color: #bd5734;
+}
+
+input {
+    padding: 5px 20px;
+    width: 95%;
+    line-height: 36px;
+    margin: 10px 20px;
+    border: 1px solid #bd5734;
+    border-radius: 5px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.3em;
+}
+
+#submit {
+    background-color: #feb236;
+    margin-left: 0.6em;
+    font-weight: bold;
+    color: #034f84;
+    border: 1.5px solid #034f84;
+    font-size: 2em;
+}
+
+#submit:hover {
+    cursor: pointer;
+    color: #feb236;
+    background-color: #034f84;
+    border: 1.5px solid #feb236;; 
+}

@@ -1,56 +1,39 @@
 # Evaluate News App Project
-Project 4 from the Udacity Front End Nanodegree program. 
+Udacity Front End Nanodegree program. Project 4
 
 
-## Description
-This project is a web app that uses an external MeaningCloud Sentiment Analysis API to perform a check of user entered URL for positivity, subjectivity, irony. 
+## Project Description
+This web app is designed to check the sentiment of user-entered articles using an external MeaningCloud Sentiment Analysis API. The sentiment analysis provides insights of the text.
 
-The goal of this project is to practice:
-- Setting up Webpack
-- Sass styles
-- Webpack Loaders and Plugins
-- Creating layouts and page design
-- Service workers
-- Using APIs and creating requests to external urls
-- Using NLP for interpreting meaning of texts
+## Settings
+To run this project locally, Node.js, and Express.js, should be installed on the machine. Additionally, ensure that the required packages listed in the "packages.json" file are installed.
 
-
-## Prerequisite
-This project should run on a local server. Node and Express should be installed on the local machine. Required packages listed in `packages.json`.
-	
-Create API credentials on [MeaningCloud.com](https://docs.aylien.com/textapi/endpoints/#api-endpoints), then insert API KEY into the `.env` file.
+Before running the app, create API credentials on MeaningCloud.com.  Then, create a .env file and insert the API key into the ".env" file as follows:
 
 ```
 API_KEY=**************************
 ```
+(don't use quotes for the API_KEY)
 
-
-## Installation
-Ensure Node, Express, Cors, Body parser, Webpack and all required packages are installed.
+install the dependencies:
 
 ```bash
 npm install
 ```
+Commands:
 
-Set up webpack config files for development and production environments.  Download files from this repo and navigate to the project folder. Afterwards, to start the server run these commands in command line:
+The app will be opened in http://localhost:8081/ after running 
 
 ```bash
-npm run build-dev
 npm run build-prod
 npm run start
 ```
 
-Navigate to http://localhost:8080/ in your browser.
-
-
-## Usage
-To use the app, enter a URL in the input field and press the **Submit** button. Sentiment results will be displayed in the box below. If a URL is invalid, the user will see an error message. The app is fully responsive.
-
-
-## Demo
-
-![Evaluate News App screenshot](/src/client/images/evaluate-news-screenshot.png?raw=true "Evaluate News NLP")
-
+## How to use the App
+To utilize the app, simply enter a URL in the input field and click the Submit button. The app will display sentiment analysis results in the box below. If the URL is invalid, the user will receive an error message. The app is fully responsive and adapts to different screen sizes.
 
 ## Author
-Code is created by Irina Kramer, using starter code by Udacity.
+Andres R. Bucheli 
+
+## Credits
+The started code for developing this project was provided by Udacity, and Front-End Developer Nanodegree Program.

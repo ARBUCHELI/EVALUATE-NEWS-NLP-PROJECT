@@ -31,14 +31,15 @@ const userInterface = (res) => {
   const agreementElement = document.getElementById('agreement');
   const confidenceElement = document.getElementById('confidence');
   const ironyElement = document.getElementById('irony');
-  const scoreTagElement = document.getElementById('score_tag');
+  const scoreTagElement = document.getElementById('polarity');
   const subjectivityElement = document.getElementById('subjetivity');
+  const textElement = document.getElementById('text');
 
   document.getElementById('bad_url').classList.remove('wrong');
   agreementElement.innerHTML = `Agreement: ${res.agreement.toLowerCase()}`;
   confidenceElement.innerHTML = `Confidence: ${res.confidence.toLowerCase()}`;
   ironyElement.innerHTML = `Irony: ${res.irony.toLowerCase()}`;
-  scoreTagElement.innerHTML = `Score Tag: ${res.score_tag.toLowerCase()}`;
+  scoreTagElement.innerHTML = `Polarity: ${res.score_tag.toLowerCase()}`;
   subjectivityElement.innerHTML = `Subjectivity: ${res.subjectivity.toLowerCase()}`;
 };
 

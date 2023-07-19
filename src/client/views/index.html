@@ -36,8 +36,9 @@
                 <p id="agreement"></p>
                 <p id="confidence"></p>
                 <p id="irony"></p>
-                <p id="score_tag"></p>
+                <p id="polarity"></p>
                 <p id="subjetivity"></p>
+                <p id="text"></p>
                 <p id="bad_url"></p>
             </div>
         </section>
@@ -46,6 +47,15 @@
     <footer>
         <p>Bucheli Web Development © 2023</p>
     </footer>
+    <script>
+        // Check that service workers are supported
+        if ('serviceWorker' in navigator) {
+            // Use the window load event to keep the page load performant
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js');
+            });
+        }
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </body>
 

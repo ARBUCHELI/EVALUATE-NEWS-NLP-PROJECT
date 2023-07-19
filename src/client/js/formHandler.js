@@ -40,7 +40,17 @@ const userInterface = (res) => {
   confidenceElement.innerHTML = `Confidence: ${res.confidence.toLowerCase()}`;
   ironyElement.innerHTML = `Irony: ${res.irony.toLowerCase()}`;
   scoreTagElement.innerHTML = `Polarity: ${res.score_tag.toLowerCase()}`;
-  subjectivityElement.innerHTML = `Subjectivity: ${res.subjectivity.toLowerCase()}`;
+  subjectivityElement.innerHTML = `Subjectivity: ${checkSubject(res.subjectivity.toLowerCase())}`;
+  textElement.innerHTML = `Text: ${res.sentence_list[0].text}`;
 };
 
-export { handleSubmit };
+function checkSubject(answer) {
+  if (answer === 'objective') {
+    return "This is an Objective article";
+  }
+  else {
+    return "The article is biased";
+  }
+}
+
+export { handleSubmit, checkSubject };

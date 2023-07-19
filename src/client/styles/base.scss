@@ -1,20 +1,16 @@
-/* CSS styles with comments */
-
-/* Base styles for the body element */
+/* This is the style of the main components of the page */
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: #b7d7e8; /* Set the background color to a light blue shade */
-  }
-  
-  /* Main content section styles */
-  main {
+    background-color: #b7d7e8;
+}
+
+main {
     flex: 2;
-  }
-  
-  /* Heading styles */
-  h1 {
+}
+
+h1 {
     display: flex;
     justify-content: space-between;
     padding: 10px 10px 10px 130px;
@@ -23,43 +19,37 @@ body {
     margin-left: auto;
     margin-right: auto;
     font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
-    color: #6b5b95; /* Set the text color to a purple shade */
+    font-family:'Courier New', Courier, monospace;
+    color: #6b5b95;
     border-radius: 5px;
-  }
-  
-  /* Section styles */
-  section {
+}
+
+section {
     max-width: 800px;
     margin: 50px auto;
-    color: #bd5734; /* Set the text color to a reddish-brown shade */
-  }
-  
-  /* Styles for the form results section */
-  #formres {
+    color: #bd5734;
+}
+
+#formres {
     font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'Courier New', Courier, monospace;
     font-size: 1.1em;
-  }
-  
-  /* Styles for the results heading inside the form results section */
-  #results-head {
-    color: #034f84; /* Set the heading color to a dark blue shade */
-    font-size: 1.5em;
-  }
-  
-  /* Styles for elements with the "wrong" class */
-  .wrong {
+    #results-head {
+        color: #034f84;
+        font-size: 1.5em;
+    }
+}
+
+/* This class is dynamically added in the case of an error */
+.wrong {
     border-radius: 3px;
-    background-color: #c94c4c; /* Set the background color to a red shade */
+    background-color: #c94c4c;
     text-align: center;
     padding: 0.7em;
-    color: #87bdd8; /* Set the text color to a light blue shade */
+    color: #87bdd8;
     font-size: 1.6em;
-  }
-  
-  /* Styles for elements with the "resultat" class */
-  .resultat {
-    color: black; /* Set the text color to black */
-  }
-  
+}
+
+.resultat {
+    color: black;
+}

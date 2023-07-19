@@ -1,5 +1,3 @@
-// Babel configuration file to specify the presets used for transpilation
 {
     "presets": ["@babel/preset-env"]
 }
-

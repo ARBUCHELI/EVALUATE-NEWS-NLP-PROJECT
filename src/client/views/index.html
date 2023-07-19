@@ -4,18 +4,16 @@
 <head>
     <meta charset="utf-8">
     <title>Evaluate News NLP</title>
+    <!-- Using font-awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 
 <body>
 
-    <!-- Header section -->
     <header>
-        <!-- Logo -->
         <div class="">
-            <img class="Logo" src="https://bucheli-web-personal-portfolio-website.netlify.app/company-logo-5.jpg" alt="logo">
+            <img class="Logo" src="https://bucheli-web-personal-portfolio-website.netlify.app/company-logo-5.jpg" alt="logo"/>
         </div>
-        <!-- Navigation menu -->
         <ul class="menu">
             <li><a href="https://bucheli-web-personal-portfolio-website.netlify.app/index.html" target="_blank"><i class="fas fa-home"></i> Portfolio</a></li>
             <li><a href="https://www.linkedin.com/in/andresregaladobucheli/?locale=en_US" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
@@ -24,19 +22,18 @@
     </header>
 
     <main>
-        <!-- Input section -->
         <section class="input">
             <h1>Evaluate News with NLP</h1>
-            <!-- Form to submit the URL -->
             <form class="" onsubmit="return Client.handleSubmit(event)">
                 <input id="name" type="text" name="input" value="" placeholder="Enter URL">
-                <input id="submit" type="submit" name="" value="Submit" onclick="return Client.handleSubmit(event)" onsubmit="return Client.handleSubmit(event)">
+                <input id="submit" type="submit" name="" value="Submit" onclick="return Client.handleSubmit(event)"
+                    onsubmit="return Client.handleSubmit(event)">
             </form>
         </section>
 
-        <!-- Results section -->
         <section id="formres">
             <strong id="results-head">Results:</strong>
+            <!-- Dom Elements that are used in the formHandler function -->
             <div id="results">
                 <p id="agreement"></p>
                 <p id="confidence"></p>
@@ -50,7 +47,6 @@
         </section>
     </main>
 
-    <!-- Footer section -->
     <footer>
         <p>Bucheli Web Development © 2023</p>
     </footer>
@@ -63,7 +59,7 @@
             });
         }
     </script>
-    <!-- Import the Axios library for making HTTP requests -->
+    <!-- Script for using font Awesome-->
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </body>
 
